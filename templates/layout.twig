@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %}TicketApp{% endblock %}</title>
+     <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col">
+    {% include 'header.twig' %}
+    <main class="flex-1 max-w-[1440px]">{% block content %}{% endblock %}</main>
+    {% include 'footer.twig' %}
+  </body>
+</html>

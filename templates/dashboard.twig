@@ -1,0 +1,26 @@
+{% extends "layout.twig" %}
+{% block title %}Dashboard — TicketApp{% endblock %}
+{% block content %}
+<div class="min-h-screen flex flex-col items-center p-6">
+  <div class="max-w-6xl w-full">
+    <div class="flex items-center justify-between mb-6">
+      <h1 class="text-3xl font-bold">Dashboard</h1>
+      <div class="flex items-center gap-3">
+        <div id="userEmail" class="text-slate-600"></div>
+        <button id="logoutBtn" class="px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700">Logout</button>
+      </div>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6 mb-8">
+      <div class="bg-white rounded-xl shadow-lg p-6 text-center">Total Tickets: <span id="totalTickets" class="font-semibold">0</span></div>
+      <div class="bg-white rounded-xl shadow-lg p-6 text-center">Open Tickets: <span id="openTickets" class="font-semibold">0</span></div>
+      <div class="bg-white rounded-xl shadow-lg p-6 text-center">Closed Tickets: <span id="closedTickets" class="font-semibold">0</span></div>
+    </div>
+
+    <div class="mt-6">
+      <a href="/tickets.php" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Manage Tickets</a>
+    </div>
+  </div>
+</div>
+<script src="/public/js/dashboard.js"></script>
+{% endblock %}
