@@ -12,12 +12,13 @@ This is the **Twig (PHP)** implementation of the Multi-Framework Ticket Web App.
 ## The single root README linking to each implementation.
 | Framework | Directory | Setup & Usage |
 |-----------|-----------|---------------|
-| **Twig (PHP)** | [`twig-ticket-app/`](twig-ticket-app) | `php -S localhost:8000 -t public` |
+| **React + TypeScript** | [GITHUB`https://github.com/Avan-Kel/HNG-FE-GRADE-2-REACT.git/`] vercel(https://hng-fe-grade-2-react-git-main-promises-projects-3ed1ac1b.vercel.app) | `npm install && npm run dev` |
 -----
-| **React + TypeScript** | [`react-ticket-app/`](react-ticket-app) | `npm install && npm run dev` |
-| **Vue 3 + TypeScript** | [`vue-ticket-app/`](vue-ticket-app) | `npm install && npm run dev` |
-| **Twig (PHP)** | [`twig-ticket-app/`](twig-ticket-app) | `php -S localhost:8000 -t public` |
-
+| **Twig (PHP)** | [GITHUB`https://github.com/Avan-Kel/HNG-FE-GRADE-2-TWIG.git/`](https://hng-fe-grade-2-twig-production.up.railway.app
+) | `php -S localhost:8000 -t public` |
+| **Vue 3 + TypeScript** | [GITHUB`https://github.com/Avan-Kel/HNG-FE-GRADE-2-VUE.git/`](https://hng-fe-grade-2-vue-git-main-promises-projects-3ed1ac1b.vercel.app
+p) | `npm install && npm run dev` |
+| **CONTAINER** | [GITHUB`https://github.com/Avan-Kel/HNG-FE-GRADE-2-REACT.git/`]
 
 ## Tech Stack
 
